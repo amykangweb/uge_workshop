@@ -1,0 +1,98 @@
+# search command line history
+history
+
+# pipe output of history to the pager less
+history | less
+
+# change directory
+cd
+
+# clear terminal
+clear
+
+# show all options for tail
+tail --help
+
+# reverse history last commands entered
+history | tail -r
+
+# cd root
+cd /
+
+# show all files in current dir
+ls
+
+# show index of all files
+ls -i
+
+# manual for ls
+man ls
+
+# home
+~
+
+# absolute path
+pwd
+
+# show contents one dir up
+ls ..
+
+# show contents of user dir
+ls ~
+
+# current dir
+./
+
+# two directories up
+../..
+
+# one dir up
+..
+
+# long version of ls
+ls -l
+
+# change dir to /home/amy
+cd /home/amy
+
+# list directories in a list
+ls -1
+
+# short for manual
+man
+
+# long, reverse, latest modified
+ls -lrt
+
+# show git version
+git --version
+
+# show PATH variable that shell searches through when you enter a command
+echo $PATH
+
+# open /etc/paths in sublime
+subl /etc/paths
+
+# cd into codefellows folder
+cd codefellows
+
+# open sublime
+subl
+
+# show editor
+echo $EDITOR
+
+# open file in subl
+subl ~/.config/fish/config.fish
+
+# show unix system name
+uname
+
+# create git.txt file
+touch git.txt
+
+# make directory
+mkdir unix_git
+
+make directory
+mkdir codefellows
