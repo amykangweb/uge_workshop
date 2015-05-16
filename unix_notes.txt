@@ -1,3 +1,9 @@
+# hidden dir
+/.git/
+
+# show hidden dir
+ls -a
+
 # search command line history
 history
 
