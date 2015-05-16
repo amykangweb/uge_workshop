@@ -1,3 +1,18 @@
+# copy ssh key to clipboard, press mouse wheel to paste
+cat ~/.ssh/id_rsa.pub | xclip
+
+# generate ssh key
+ssh-keygen -t rsa
+
+# Add remote repo
+git remote add origin <url>
+
+# show all remote repos
+git remote -v
+
+# creates and changes to branch
+git checkout -b <name>
+
 # create git notes txt file
 touch git_notes.txt
 
