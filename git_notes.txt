@@ -1,0 +1,23 @@
+tail --help
+history | tail -r
+history | less
+histor | tail -r
+history -r
+history | tail
+history
+touch git_notes.txt
+git checkout git-notes
+git branch
+git branch git-notes
+git log
+git diff
+git commit -m "Add a line about hidden directories"
+git status
+git add unix_notes.txt
+subl unix_notes.txt
+ls
+git ll
+git history
+git commit -m "add unix notes, initial draft."
+ls -a
+git init
