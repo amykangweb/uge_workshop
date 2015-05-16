@@ -1,0 +1,49 @@
+# copy ssh key to clipboard, press mouse wheel to paste
+cat ~/.ssh/id_rsa.pub | xclip
+
+# generate ssh key
+ssh-keygen -t rsa
+
+# Add remote repo
+git remote add origin <url>
+
+# show all remote repos
+git remote -v
+
+# creates and changes to branch
+git checkout -b <name>
+
+# create git notes txt file
+touch git_notes.txt
+
+# change to git-notes branch
+git checkout git-notes
+
+# show all branches
+git branch
+
+# create branch git notes
+git branch git-notes
+
+# commit history
+git log
+
+# show changes to files
+git diff
+
+git commit -m "Add a line about hidden directories"
+
+# show all untracked/staged files
+git status
+
+# add unix_notes.txt to staging area
+git add unix_notes.txt
+
+# commit staged files
+git commit -m "add unix notes, initial draft."
+
+# show hidden dirs
+ls -a
+
+# initialize git repo
+git init
