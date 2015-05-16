@@ -1,23 +1,34 @@
-tail --help
-history | tail -r
-history | less
-histor | tail -r
-history -r
-history | tail
-history
+# create git notes txt file
 touch git_notes.txt
+
+# change to git-notes branch
 git checkout git-notes
+
+# show all branches
 git branch
+
+# create branch git notes
 git branch git-notes
+
+# commit history
 git log
+
+# show changes to files
 git diff
+
 git commit -m "Add a line about hidden directories"
+
+# show all untracked/staged files
 git status
+
+# add unix_notes.txt to staging area
 git add unix_notes.txt
-subl unix_notes.txt
-ls
-git ll
-git history
+
+# commit staged files
 git commit -m "add unix notes, initial draft."
+
+# show hidden dirs
 ls -a
+
+# initialize git repo
 git init
